@@ -18,6 +18,7 @@
     height: 100%;
     position: relative;
     transform-style: preserve-3d;
+    z-index: -1;
 }
 
    
@@ -49,3 +50,55 @@
     text-shadow: 0 0 10px rgba(0,0,0,0.3);
 }
 
+
+.main{
+    background-color: rgba(45, 45, 45);
+    
+}
+
+.main h1{
+    padding: 2em 2em 0;
+    font-size: 3em;
+    color: white;
+    font-weight: 800;
+}
+
+.para{
+    color: white;
+    font-size: 1.6em;
+    padding: 3em 3.6em 3em;
+}
+
+
+
+.bcg{
+    color: white;
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.head{
+    padding: 1em;
+    color: black;
+    background-color: white;
+    
+}
+
+.bike{
+    background-image: url(./images/biking.jpg);
+}
+
+.surf{
+    background-image: url(./images/surfing.jpg);
+}
+
+.paraglid{
+    background-image: url(./images/paraglid.jpg);
+}
